@@ -5,7 +5,7 @@ Specifically, DNABERT-2 is used within MCAMEFBERT to extract rich sequence embed
 
 ---
 
-🧬 Model Configuration
+## 🧬 Model Configuration
 
 - **Pre-trained model dependency**:  
   MCAMEFBERT internally utilizes the DNABERT-2 model ([zhihan1996/DNABERT-2-117M](https://huggingface.co/zhihan1996/DNABERT-2-117M)) for sequence representation learning.  
@@ -22,7 +22,7 @@ Specifically, DNABERT-2 is used within MCAMEFBERT to extract rich sequence embed
 
 ---
 
-📦 Environment Setup
+## 📦 Environment Setup
 
 Install the required Python packages using the provided `requirements.txt`:
 
@@ -30,7 +30,7 @@ Install the required Python packages using the provided `requirements.txt`:
 pip install -r requirements.txt
 ```
 
-📁 Project Structure
+## 📁 Project Structure
 ```bash
 MCAMEFBERT/
 ├── save/
@@ -42,7 +42,7 @@ MCAMEFBERT/
 └── evaluate.py            # Evaluation script
 ```
 
-🚀 Quick Start
+## 🚀 Quick Start
 1. Download the pre-trained model
 Make sure the DNABERT-2 pre-trained model is accessible:
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 python train.py --config config.yaml
 ```
 
-💡 Notes
+## 💡 Notes
 Make sure your data is prepared properly (see data format and paths in your configuration file).
 
 The model is designed to run on GPU by default. To run on CPU, adjust the configurations accordingly.
