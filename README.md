@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 3. Train the model
 ```bash
-python train.py --config config.yaml
+python MCAMEFBERT.py
 ```
 
 ## 💡 Notes
