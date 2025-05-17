@@ -29,7 +29,9 @@ Install the required Python packages using the provided `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 ```
+
 📁 Project Structure
+```bash
 MCAMEFBERT/
 ├── save/
 │   └── seq_len201/        # Model checkpoints and intermediate files
@@ -38,6 +40,7 @@ MCAMEFBERT/
 ├── requirements.txt       # Environment configuration file
 ├── train.py               # Training script
 └── evaluate.py            # Evaluation script
+```
 
 🚀 Quick Start
 1. Download the pre-trained model
@@ -50,10 +53,12 @@ You can let Hugging Face Transformers automatically download the model during th
 2. Install the environment
 ```bash
 pip install -r requirements.txt
+```
 
 3. Train the model
 ```bash
 python train.py --config config.yaml
+```
 
 💡 Notes
 Make sure your data is prepared properly (see data format and paths in your configuration file).
